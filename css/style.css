@@ -3,7 +3,6 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
 /* start banner section */
 .banner{
     background-image: url(../images/donation-bg.png);
@@ -13,9 +12,6 @@
     background-size: cover;
     background-position: center;
     padding: 10%;
-
-
-
 }
 .banner-text{
     display: flex;
@@ -25,8 +21,7 @@
 .banner-text h1{
     color: white;
     text-align: center;
-    font-size: 70px;
-    
+    font-size: 70px;  
 }
 .banner-text p{
     text-align: center;
@@ -40,6 +35,57 @@
     padding: 15px 25px;
     border-radius: 10px;
     font-weight: 700;
-
 }
+/* start donate today section  */
+.donate-today{
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 10%;
+}
+.donate-today h2{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.donate-today p{
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+    color: gray;
+}
+.amount{
+    display: flex;
+    width: 80%;
+    /* background-color: aquamarine; */
+    padding: 50px;
+    margin: auto;
+}
+.half-div{
+    width: 20%;
+    margin:10px;
+    background-color: rgba(239, 232, 232, 0.7);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+.selected-div{
+    width: 20%;
+    margin:10px;
+    background-color:rgba(255, 144, 124,0.3);
+    padding: 40px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: 3px solid tomato;
+}
+.selected-div h2{
+    font-size: 25px;
+    color: tomato;
+}
+.half-div h2{
+    font-size: 25px;
+    color: gray; 
+}
+
+
+
+
+
 
