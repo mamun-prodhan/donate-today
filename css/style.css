@@ -129,6 +129,7 @@
     background-color:rgba(4, 255, 255,0.2);
 }
 
+/* form section  */
 form{
     width: 70%;
     padding: 100px 100px;
@@ -151,10 +152,12 @@ form{
     padding: 10px 15px;
     border: none;
     background-color: tomato;
+    color: white;
     border-radius: 5px;
     outline: none;
     cursor: pointer;
 }
+/* start footer section  */
 footer{
     width: 100%;
     background-color: black;
