@@ -1,9 +1,36 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* start banner section */
 .banner{
     background-image: url(../images/donation-bg.png);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 10%;
+
+
 
 }
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-text h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    
+}
+.banner-text p{
+    text-align: center;
+    color: white;
+    padding: 20px 0 70px 0;
+}
+
