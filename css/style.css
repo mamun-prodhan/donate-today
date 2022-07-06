@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
 /* start banner section */
-.banner{
+.banner {
     background-image: url(../images/donation-bg.png);
     height: 100%;
     width: 100%;
@@ -13,22 +14,26 @@
     background-position: center;
     padding: 10%;
 }
-.banner-text{
+
+.banner-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.banner-text h1{
+
+.banner-text h1 {
     color: white;
     text-align: center;
-    font-size: 70px;  
+    font-size: 70px;
 }
-.banner-text p{
+
+.banner-text p {
     text-align: center;
     color: white;
     padding: 20px 0 70px 0;
 }
-.button{
+
+.button {
     text-decoration: none;
     color: white;
     background-color: tomato;
@@ -36,118 +41,191 @@
     border-radius: 10px;
     font-weight: 700;
 }
+
 /* start donate today section  */
-.donate-today{
+.donate-today {
     width: 100%;
     padding: 10%;
 }
-.donate-today h2{
+
+.donate-today h2 {
     text-align: center;
     color: black;
     font-size: 50px;
 }
-.donate-today p{
+
+.donate-today p {
     text-align: center;
     padding: 20px 0px 50px 0px;
     color: gray;
 }
-.amount{
+
+.amount {
     display: flex;
     width: 80%;
 
     padding: 50px;
     margin: auto;
 }
-.half-div{
+
+.half-div {
     width: 20%;
-    margin:10px;
+    margin: 10px;
     background-color: rgba(239, 232, 232, 0.7);
     padding: 40px 20px;
     border-radius: 10px;
 }
-.selected-div{
+
+.selected-div {
     width: 20%;
-    margin:10px;
-    background-color:rgba(255, 144, 124,0.3);
+    margin: 10px;
+    background-color: rgba(255, 144, 124, 0.3);
     padding: 40px 20px;
     border-radius: 10px;
     font-size: 25px;
     border: 3px solid tomato;
     cursor: pointer;
 }
-.selected-div h2{
+
+.selected-div h2 {
     font-size: 25px;
     color: tomato;
 }
-.half-div h2{
+
+.half-div h2 {
     font-size: 25px;
-    color: gray; 
+    color: gray;
 }
-.input-taka{
+
+.input-taka {
     width: 100%;
     padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#input-field{
+
+#input-field {
     padding: 10px 300px;
     border: none;
     outline: none;
-    border-bottom: 2px solid rgba(133, 131, 131,0.4);
+    border-bottom: 2px solid rgba(133, 131, 131, 0.4);
     margin-bottom: 50px;
 }
 
 /* Start our donation plan  */
-.donation-plan{
+.donation-plan {
     width: 100%;
     padding: 0px 100px 100px 100px;
 }
-.heading{
+
+.heading {
     text-align: center;
     color: black;
     font-size: 50px;
 }
-.paragraph{
+
+.paragraph {
     text-align: center;
     padding: 20px 0px 50px 0px;
     color: gray;
 }
-.education{
+
+.education {
     display: flex;
     width: 100%;
 }
-.family{
+
+.family {
     width: 100%;
     padding: 50px 25px 50px 25px;
     margin: 20px;
-    background-color: rgba(255, 99, 71,0.3);
+    background-color: rgba(255, 99, 71, 0.3);
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
 }
-.color{
-    background-color:rgba(4, 255, 255,0.2);
+
+.color {
+    background-color: rgba(4, 255, 255, 0.2);
+
 }
 
+
+
+
+.manage-donation {
+    width: 100%;
+    padding: 0px 100px 100px 100px;
+    justify-content: center;
+}
+
+.manage-heading {
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.manage-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+    /* padding: 5%; */
+}
+
+.clothes {
+    padding: 30px 40px;
+    margin: 0px 20px;
+    background-color: rgba(4, 255, 255, 0.2);
+    box-shadow: 5px 5px 10px gray;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.clothes h3{
+    padding: 10px;
+}
+.clothes p{
+    margin-bottom: 20px;
+}
+.clothes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.manage-button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+
+
+
 /* form section  */
-form{
+form {
     width: 70%;
     padding: 100px 100px;
-    background-color:rgba(255, 228, 196,0.7);
+    background-color: rgba(255, 228, 196, 0.7);
     margin: auto;
     margin-bottom: 50px;
     text-align: center;
 }
-#email{
+
+#email {
     padding: 10px 20px;
     margin: 0;
     border: none;
-    background-color: rgba(138, 138, 138,0.5);
+    background-color: rgba(138, 138, 138, 0.5);
     border-radius: 5px;
     outline: none;
 
 }
-#subscribe-button{
+
+#subscribe-button {
     margin-left: auto;
     padding: 10px 15px;
     border: none;
@@ -157,26 +235,23 @@ form{
     outline: none;
     cursor: pointer;
 }
+
 /* start footer section  */
-footer{
+footer {
     width: 100%;
     background-color: black;
     margin-top: 200px;
 }
-footer h2{
+
+footer h2 {
     color: tomato;
     padding: 20px 40px;
     text-align: center;
     font-size: 30px;
 }
-footer p{
+
+footer p {
     color: gray;
     text-align: center;
     padding-bottom: 20px;
 }
-
-
-
-
-
-
