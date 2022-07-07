@@ -144,13 +144,19 @@
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
 }
+.family h3{
+    padding-top: 15px;
+}
+.family p{
+    padding-top: 15px;
+}
 
 .color {
     background-color: rgba(4, 255, 255, 0.2);
 
 }
 
-/* start donate section  */
+/* start donation manage section  */
 .manage-donation {
     width: 100%;
     padding: 0px 100px 100px 100px;
@@ -203,7 +209,7 @@
     cursor: pointer;
 }
 
-/* form section  */
+/* start form section  */
 form {
     width: 70%;
     padding: 100px 100px;
@@ -243,7 +249,7 @@ footer {
 
 footer h2 {
     color: tomato;
-    padding: 20px 40px;
+    padding: 30px 40px;
     text-align: center;
     font-size: 30px;
 }
@@ -251,5 +257,5 @@ footer h2 {
 footer p {
     color: gray;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
